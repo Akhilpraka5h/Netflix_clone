@@ -1,0 +1,32 @@
+.movies {
+  padding-top: 80px;
+}
+
+.card_lists {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  /* justify-content: space-between; */
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.card_lists::-webkit-scrollbar {
+  display: none;
+}
+.card_lists img {
+  width: 370px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.card_lists .card {
+  position: relative;
+}
+.cards p {
+  font-size: 18px;
+
+  position: absolute;
+  margin-top: -50px;
+  margin-left: 4%;
+  text-transform: none;
+
+  color: #fff;
+}
